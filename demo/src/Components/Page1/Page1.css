@@ -1,11 +1,8 @@
-.bgcolor {
-  background-color: #f36576;
-  margin-top: -1.5%;
-}
+
 .main {
   display: flex;
   width: 100%;
-  height: 82vh;
+  height: 83vh;
   text-align: center;
   flex-direction: row;
 }
@@ -43,6 +40,11 @@
   background-color: #e0efff;
   font-size: 1.5rem;
   margin-bottom: 2%;
+}
+@media (max-width: 1000px) {
+  .main {
+    height: auto;
+  }
 }
 
 @media (max-width: 600px) {
